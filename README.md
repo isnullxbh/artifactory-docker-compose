@@ -1,2 +1,3 @@
 # artifactory-docker-compose
-Install Artifactory OSS with Docker Compose
+
+Install Artifactory (cpp-ce) with Docker Compose
