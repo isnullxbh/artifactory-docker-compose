@@ -23,8 +23,8 @@ services:
     networks:
       - artifactory-cpp-ce-network
     ports:
-      - "127.0.0.1:8082:${JF_ROUTER_ENTRYPOINTS_EXTERNALPORT}"
-      - "127.0.0.1:8081:8081"
+      - "8082:${JF_ROUTER_ENTRYPOINTS_EXTERNALPORT}"
+      - "8081:8081"
     restart: unless-stopped
     logging:
       driver: json-file
@@ -49,7 +49,7 @@ services:
     networks:
       - artifactory-cpp-ce-network
     ports:
-      - "127.0.0.1:54321:5432"
+      - "54321:5432"
     restart: unless-stopped
     logging:
       driver: json-file
