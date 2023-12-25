@@ -1,0 +1,14 @@
+shared:
+    node:
+        ip: 127.0.0.1
+        id: artifactory-cpp-ce
+        name: artifactory-cpp-ce.isnullxbh.me
+    database:
+        type: postgresql
+        driver: org.postgresql.Driver
+        password: "<PASS>"
+        username: artifactory
+        url: jdbc:postgresql://database:5432/artifactory
+router:
+    entrypoints:
+        externalPort: 8082
